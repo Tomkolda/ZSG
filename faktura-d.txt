@@ -1,0 +1,26 @@
+Faktura číslo: 7/2016
+---------------------------------------------------------------------------
+Dodavatel:
+XSL+XML s.r.o.
+Voříškova 13, Brno, 61320
+IČO: 123654789
+
+Odběratel:
+BZSG, s.r.o.
+Kolejní 2, Brno, 61200
+IČO: 0123456789
+
+Datum vystavení:  27.3.2016
+Datum splatnosti: 10.4.2016
+
+Seznam položek:
+~~~~~~~~~~~~~~~
+* Nasazení šablon XSL do XML
+  1 ks.......DPH 21 %.......159000 Kč
+* XSL procesor
+  1 ks.......DPH 21 %.......99 EUR
+* Stolní počítač
+  3 ks.......DPH 21 %.......20990 Kč
+
+
+Děkujeme za nákup!

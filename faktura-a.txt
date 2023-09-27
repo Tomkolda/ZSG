@@ -1,0 +1,1 @@
+Text faktury; zatím bez použití dat z XML souboru.

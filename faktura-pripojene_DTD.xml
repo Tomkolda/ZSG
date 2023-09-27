@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE faktura SYSTEM "faktura.dtd">
+<faktura cislo="7/2016" vystaveni="27.3.2016" splatnost="10.4.2016">
+	<odberatel>
+		<nazev>BZSG, s.r.o.</nazev>
+		<adresa>Kolejní 2, Brno, 61200</adresa>
+		<ico>0123456789</ico>
+	</odberatel>
+	<dodavatel>
+		<nazev>XSL+XML s.r.o.</nazev>
+		<adresa>Voříškova 13, Brno, 61320</adresa>
+		<ico>123654789</ico>
+	</dodavatel>
+	<polozka>
+		<popis>Nasazení šablon XSL do XML</popis>
+		<cena>159000</cena>
+		<dph>21</dph>
+	</polozka>
+	<polozka>
+		<popis>XSL procesor</popis>
+		<cena mena="EUR">99</cena>
+		<dph>21</dph>
+	</polozka>
+	<polozka ks="3">
+		<popis>Stolní počítač</popis>
+		<cena>20990</cena>
+		<dph>21</dph>
+	</polozka>
+</faktura>

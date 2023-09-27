@@ -1,0 +1,19 @@
+<!ELEMENT faktura (odberatel,dodavatel,polozka+)> <!-- plus znamená alespoň jednou -->
+<!ELEMENT odberatel (nazev,adresa,ico)>
+<!ELEMENT dodavatel (nazev,adresa,ico)>
+<!ELEMENT polozka (popis?,cena,dph)> <!-- otazník znamená maximálně jednou -->
+<!ELEMENT nazev (#PCDATA)>
+<!ELEMENT adresa (#PCDATA)>
+<!ELEMENT ico (#PCDATA)>
+<!ELEMENT popis (#PCDATA)>
+<!ELEMENT cena (#PCDATA)>
+<!ELEMENT dph (#PCDATA)>
+<!ATTLIST faktura
+          cislo CDATA #REQUIRED
+          vystaveni CDATA #REQUIRED
+          splatnost CDATA #REQUIRED
+          vystavil CDATA #IMPLIED> <!-- #REQUIRED znamená, že atribut musí být uveden; #IMPLIED, že je nepovinný -->
+<!ATTLIST cena
+          mena CDATA "Kč"> <!-- výchozí (default) hodnota -->
+<!ATTLIST polozka
+          ks CDATA "1">
